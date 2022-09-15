@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SoftwareAG.EntireX.NETWrapper.Runtime">
+      <HintPath>..\..\..\..\..\..\SoftwareAG_V10_1\EntireX\bin\x86\SoftwareAG.EntireX.NETWrapper.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
